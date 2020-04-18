@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Box from '@material-ui/core/Box';
+import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Typography from '@material-ui/core/Typography';
 
@@ -27,10 +28,11 @@ class Home extends Component {
     render (){
         return(
         <div className="home">
-            <div className="apiTextField">
-                <TextField id="filled-basic" variant="filled" defaultValue={this.state.path} disabled></TextField>
-                <TextField id="outline-basic" variant = "outlined" helperText="Please enter an API request here"></TextField>
-            </div>
+            <form className="apiTextField" width="50vw">
+                <TextField width="10px" id="filled-basic" variant="filled" defaultValue={this.state.path} disabled></TextField>
+                <TextField width="50%" id="outline-basic" variant = "outlined" helperText="Please enter an API request here"></TextField>
+                <Button variant="contained" width='25%' height="100%">Submit</Button>
+            </form>
             <Typography component="div" variant="body1">
                 <Box width="50vw" height="400px" component="div" whitespace="normal" overflow="auto" bgcolor="rgba(0,255,255,0.5)">
             

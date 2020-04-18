@@ -8,7 +8,7 @@ const NavBar = () => {
         <div>
             <AppBar positon="static">
                 <ToolBar>
-                    <Typography variant = "title" color="inherit">
+                    <Typography variant = "h3" color="inherit">
                         Covid API
                     </Typography>
                 </ToolBar>
