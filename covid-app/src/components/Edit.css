@@ -4,9 +4,6 @@
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-.loader{
-    font-size: xx-large;
-}
 .requestTypeButtons{
     display:flex;
 }
@@ -28,7 +25,9 @@
     width: 70%;
     margin:0;
 }
-
+#request-form{
+    white-space: pre-line;
+}
 
 #buttonSubmit{
     width: 100%;

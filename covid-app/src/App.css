@@ -1,7 +1,15 @@
 nav{
   height: 10vh;
+  
   width: 100 vw;
   margin-bottom: 5%;
+}
+nav span.MuiButton-label{
+  color: aliceblue;
+  font-size: xx-large;
+}
+body{
+  background-color: pink;
 }
 main{
   display: flex;
@@ -9,8 +17,8 @@ main{
   justify-content: center;
   align-items: center;
   width: 50%;
-  margin-left:25%;
-  margin-right: 25%;
+  padding-left:25%;
+  padding-right: 25%;
 }
 footer{
   background-color: aliceblue;
