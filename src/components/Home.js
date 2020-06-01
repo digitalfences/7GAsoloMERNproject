@@ -9,7 +9,7 @@ import './Home.css';
 
 class Home extends Component {
     state = {
-        path: "https://pure-citadel-56709.herokuapp.com/",
+        path: "https://mernbackend-covid.herokuapp.com/",
         observations: null,
         requestString: "",
         update: true
@@ -43,7 +43,7 @@ class Home extends Component {
         event.preventDefault();
         this.setState({
             observations: null,
-            path: "https://pure-citadel-56709.herokuapp.com/" + this.state.requestString,
+            path: this.state.path + this.state.requestString,
             update: true
         })
     }
